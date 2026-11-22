@@ -34,15 +34,18 @@ const image = readFileSync(bundledPath);
 if (image.length === 0) {
   throw new Error("bundled image is empty");
 }
-// A front page at this size is hundreds of kilobytes; anything far smaller
-// means the bundle was truncated, so fail here rather than shipping it.
-if (image.length < 10 * 1024) {
-  throw new Error(`bundled image suspiciously small: ${image.length} bytes`);
+
+// Guard the size the gate itself enforces. A front page is hundreds of
+// kilobytes, so a tiny bundle means a truncated file, and anything over
+// 1 MiB is refused by the gate outright. Fail here with a clear message
+// instead of shipping a file the gate would reject.
+const MIN_IMAGE_BYTES = 10 * 1024;
+const MAX_IMAGE_BYTES = 1024 * 1024;
+if (image.length < MIN_IMAGE_BYTES) {
+  throw new Error(`bundled image too small to be a front page: ${image.length} bytes`);
 }
-// The gate refuses images over 1 MiB, so refuse one here too instead of
-// shipping a file the gate would reject.
-if (image.length > 1024 * 1024) {
-  throw new Error(`bundled image over the 1 MiB gate cap: ${image.length} bytes`);
+if (image.length > MAX_IMAGE_BYTES) {
+  throw new Error(`bundled image larger than the 1 MiB limit: ${image.length} bytes`);
 }
 
 // The gate tells PNG from JPEG by the first bytes, so refuse anything else
