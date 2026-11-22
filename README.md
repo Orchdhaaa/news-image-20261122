@@ -8,17 +8,17 @@ An entry for make.fun's "Sum up 22 November's world news in one image" bounty.
 
 The image is a newspaper front page. The masthead reads "THE WORLD" and the
 date line is Sunday, 22 November 2026. It sums up the day in five stories,
-each checked against live news sources on 22 November 2026 (morning edition
-- news as reported by 07:45 WIB):
+each checked against live news sources on 22 November 2026 (evening edition
+- news as reported by 17:45 WIB):
 
-1. **COP31 close to final deal after all-night talks.** Climate talks in
-   Antalya approached a final deal on Sunday after negotiators ran past a
-   Friday deadline, straight through Saturday and into the early hours of
-   Sunday. COP31 President Murat Kurum told a late-night plenary session
-   the new package was a text all parties could agree on, and the
-   conference will reconvene on Sunday morning to approve it. A
-   slimmed-down draft published on Thursday had cut all references to
-   ending fossil fuel use, after objections from oil producers.
+1. **COP31 deal in the balance as final text drops fossil fuels.** The
+   final text of the COP31 climate deal went to nearly 200 countries on
+   Sunday, and approval hung in the balance. The ten-page Antalya Accords
+   never mention fossil fuels, oil, coal or a phase-out, and admit for the
+   first time that peak warming will pass 1.5C. The text aims to lift
+   electricity to 35 percent of final energy use by 2035, but drops a $120
+   billion adaptation target. The approval session slipped to 11:00 in
+   Antalya as objections grew, and Belgium called the text unacceptable.
 2. **Mexico captures "El Chapo Isidro" in Sinaloa raid.** Mexican forces
    captured Fausto Isidro Meza Flores, known as "El Chapo Isidro," on
    Friday night in Guasave, Sinaloa, one of the FBI's 10 most wanted
@@ -40,23 +40,23 @@ each checked against live news sources on 22 November 2026 (morning edition
    and moving nuclear sites underground. US forces in the region could
    launch within two to four days if President Trump gave the order. Trump
    said on Friday he would not decide on next steps until the new year.
-5. **France protests ebb as turnout falls.** Turnout fell at largely
-   peaceful marches across France on Saturday over the cost of living and
-   student rights, giving the government some respite after weeks of
-   protests. The Interior Ministry said 82,500 people took part
-   nationwide, including 21,500 in Paris, down from 106,000 a week
-   earlier. Organisers put the figure at 150,000. About 70,000 security
-   forces were deployed across France.
+5. **Drone hits Kyiv flat, at least 14 missing.** A Russian drone struck
+   a five-story apartment building in the Kyiv region on Sunday morning,
+   and at least 14 people may still be trapped under the rubble, President
+   Volodymyr Zelenskiy said. Part of the building collapsed. Nine people
+   were evacuated and the fire was contained, he said. Russian strikes also
+   hit Zelenskiy's hometown of Kryvyi Rih overnight, killing two and
+   wounding 60.
 
 Also today: the UN chief race is deadlocked after a ninth straw poll,
 Grynspan leads with 10 votes for but 2 veto powers oppose, and the UK and
 France vetoed UAE candidate Nusseibeh; Wall Street's Friday close is still
 the latest, Nasdaq -5.28%, S&P 500 -3.70%, Nvidia -14%, Anthropic -8.5%
-to $88.91; the IRGC says it downed two US drones over Hormuz, the US had
-no immediate comment and the claim is not verified; Wildberries CEO
-Tatyana Kim quits days after EU sanctions, Alexei Kulikov takes over;
-Ireland beat South Africa 20-17, and the Springboks still reach the
-Nations Championship final.
+to $88.91; the Russian cargo ship Sparta II is still burning off Finland
+after a drone strike, its crew safe; a factory fire in Cikande, Java,
+killed 3 and left 36 missing, with the search under way; France protests
+ebbed, 82,500 marched, down from 106,000; Ireland beat South Africa 20-17,
+and the Springboks still reach the Nations Championship final.
 
 Every story was verified against live news sources on 22 November 2026 (see
 SOURCES.md in the competition workspace). All text is set in real fonts, so
